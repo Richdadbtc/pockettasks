@@ -33,7 +33,6 @@ final filteredSortedTasksProvider =
 typedef FilteredSortedTasksRef = AutoDisposeFutureProviderRef<List<Task>>;
 String _$taskNotifierHash() => r'f2a5ca5b19d576af815e6b7378af9cd8bf7a1957';
 
-/// See also [TaskNotifier].
 @ProviderFor(TaskNotifier)
 final taskNotifierProvider =
     AutoDisposeAsyncNotifierProvider<TaskNotifier, List<Task>>.internal(
@@ -49,7 +48,6 @@ typedef _$TaskNotifier = AutoDisposeAsyncNotifier<List<Task>>;
 String _$taskFilterNotifierHash() =>
     r'7769beb4f9af3344c9b2df5e30448d8be0dbbedc';
 
-/// See also [TaskFilterNotifier].
 @ProviderFor(TaskFilterNotifier)
 final taskFilterNotifierProvider =
     AutoDisposeNotifierProvider<TaskFilterNotifier, TaskFilter>.internal(
@@ -65,7 +63,6 @@ final taskFilterNotifierProvider =
 typedef _$TaskFilterNotifier = AutoDisposeNotifier<TaskFilter>;
 String _$taskSortNotifierHash() => r'eef2fd135d41c18505e979179989714340b74578';
 
-/// See also [TaskSortNotifier].
 @ProviderFor(TaskSortNotifier)
 final taskSortNotifierProvider =
     AutoDisposeNotifierProvider<TaskSortNotifier, TaskSort>.internal(

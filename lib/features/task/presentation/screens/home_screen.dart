@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../../../../core/theme/app_theme.dart';
 import '../providers/task_providers.dart';
 import '../widgets/task_list.dart';

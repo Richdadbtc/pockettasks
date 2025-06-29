@@ -1,5 +1,4 @@
 import 'package:hive/hive.dart';
-
 import '../../domain/models/task_model.dart';
 import '../../domain/repositories/task_repository.dart';
 

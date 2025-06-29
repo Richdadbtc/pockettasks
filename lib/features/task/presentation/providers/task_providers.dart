@@ -103,7 +103,6 @@ Future<List<Task>> filteredSortedTasks(FilteredSortedTasksRef ref) async {
           filteredTasks = tasks;
       }
 
-      // Apply sort
       filteredTasks.sort((a, b) {
         switch (sort) {
           case TaskSort.dueDate:

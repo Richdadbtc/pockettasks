@@ -11,18 +11,14 @@ import 'features/task/presentation/screens/home_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Initialize Hive
   final appDocumentDir = await getApplicationDocumentsDirectory();
   await Hive.initFlutter(appDocumentDir.path);
   
-  // Register Hive adapters
   Hive.registerAdapter(adapter.TaskAdapter());
 
 
-  // Open Hive box
   final taskBox = await Hive.openBox<Task>('tasks');
   
-  // Add some sample tasks if the box is empty
   if (taskBox.isEmpty) {
     final now = DateTime.now();
     await taskBox.put('1', Task(
@@ -58,7 +54,6 @@ void main() async {
     ));
   }
   
-  // Run the app with ProviderScope
   runApp(
     ProviderScope(
       overrides: [
