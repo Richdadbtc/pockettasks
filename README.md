@@ -69,3 +69,5 @@ Built APK:
   app\outputs\flutter-apk\app-release.apk (20.8MB)
 
   WhatsApp Video 2025-06-29 at 09.09.43_e0936823.mp4
+
+  WhatsApp Video 2025-06-29 at 09.09.43_f8c84e55.mp4
