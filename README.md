@@ -18,7 +18,7 @@ How to Run the App
 
 Setup and Run
 1. Clone the repository:
-   git clone https://github.com/your-username/pocket-tasks.git
+   git clone https://github.com/Richdadbtc/pockettasks.git
    
 2. Navigate to the project directory:
    cd pocket-tasks
@@ -64,3 +64,8 @@ Presentation: Handles UI and user interactions
   - Providers: Manage state using Riverpod
   - Screens: Display UI to the user
   - Widgets: Reusable UI components
+
+Built APK:
+  app\outputs\flutter-apk\app-release.apk (20.8MB)
+
+  WhatsApp Video 2025-06-29 at 09.09.43_e0936823.mp4
